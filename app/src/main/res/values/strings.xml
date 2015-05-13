@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Login Social</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="facebook_app_id">461096224053528</string>
+    <string name="title_activity_main">MainActivity</string>
+</resources>
