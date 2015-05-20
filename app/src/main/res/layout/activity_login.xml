@@ -17,17 +17,35 @@
         android:layout_marginBottom="30dp" />
 
     <com.google.android.gms.common.SignInButton
-        android:id="@+id/google_sign_in_button"
+        android:id="@+id/google_login_button"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/facebook_login_button"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linkedin_login_button"
+        android:src="@drawable/sign_in_large___default"
+        android:layout_marginTop="33dp"
+        android:layout_below="@+id/google_login_button"
+        android:layout_centerHorizontal="true" />
+
+    <com.twitter.sdk.android.core.identity.TwitterLoginButton
+        android:id="@+id/twitter_login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="33dp"
+        android:layout_below="@+id/linkedin_login_button" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="LOGOUT"
         android:id="@+id/g_logout"
-        android:layout_centerVertical="true"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
